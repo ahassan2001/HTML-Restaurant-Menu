@@ -23,13 +23,13 @@
     font-family: Stencil Std, fantasy;
     font-size: 100px;
     background-color: lightblue;
+    text-align: center;
 }
 
 .text2{
     color: #0d33c9;
     font-family: Stencil Std, fantasy;
     font-size: 65px;
-    background-color: lightblue;
 }
 
 .button{
@@ -37,6 +37,9 @@
     font-family: Stencil Std, fantasy;
     font-size: 25px;
     background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button:hover {
